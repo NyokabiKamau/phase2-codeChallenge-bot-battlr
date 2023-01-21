@@ -13,10 +13,11 @@ function BotCollection() {
         .then(response => response.json())
         .then(data => {
             setRobot(data.bots)
+            console.log(data.bots)
         })
     }, [])
 
-    const robotElems = robot.map((value) => <BotItem avatar_url={value.avatar_url} name={value.name} health={value.health} damage={value.damage} armour={value.armour} catchphrase={value.catchphrase} key={value.id} /> )
+    const robotElems = robot.map((value) => <BotItem name={value.name} health={value.health} damage={value.damage} armour={value.armour} catchphrase={value.catchphrase} bot_class={value.bot_class} avatar_url={value.avatar_url} created_at={value.created_at} updated_at={value.updated_at} key={value.id} /> )
 
     return (
         <div className="container mt-4">
