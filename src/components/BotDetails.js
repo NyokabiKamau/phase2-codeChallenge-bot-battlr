@@ -47,12 +47,12 @@ function BotDetails({avatar_url, name, health, damage, armor: armor, bot_class, 
                 </div>
 
                 <div className="col-8">
-                    <div className="card-body">
+                    <div className="card-body" >
                         <h5 class="card-title">Name: {name}</h5>
                         <p class="card-text">Catchphrase: {catchphrase}</p>
                         <p>Class: {bot_class} <span className="icon"> {botIcon}</span></p>
 
-                        <div className="card-text ">
+                        <div className="card-text mb-3" id="detail-icon">
                             <FaHeartbeat className="icon" /> {health}  <BsFillLightningFill className="icon"/> {damage}  <BsShieldShaded className="icon"/> {armor}
                         </div>
                         <button onClick={() => sendDataToParent("go back",item)} className="armyBtn">Go Back</button>
