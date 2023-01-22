@@ -5,7 +5,17 @@ import { IoAirplane } from "react-icons/io5";
 import { GiWitchFlight, GiAbstract058 } from "react-icons/gi";
 import { MdAssistantPhoto } from "react-icons/md";
 
-function BotItem({avatar_url, name, health, damage, armor: armor, bot_class, catchphrase}) {
+function BotItem({avatar_url, name, health, damage, armor, bot_class, catchphrase,item,callback,position}) {
+
+    const state = {
+        bots: [],
+        position: position
+    }
+ 
+    const sendDataToParent = (item) => { 
+        state.bots.push(item)
+        callback(state)
+    };
 
     let botIcon; 
 
@@ -33,7 +43,7 @@ function BotItem({avatar_url, name, health, damage, armor: armor, bot_class, cat
     }
 
     return (
-        <div className="col-3 p-1">
+        <div className="col-3 p-1" disabled onClick={() => sendDataToParent(item)}>
             <div className="card h-100">
             <img className="card-img-top" style={{background: 'lightgrey'}} src={avatar_url}></img>
                 <div className="card-body">
