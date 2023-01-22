@@ -43,6 +43,7 @@
   
 }
 
+
 #botDetailImage {
   border-radius: 50%;
   border: 1px solid grey;
@@ -59,4 +60,11 @@
 
 .armyBtn {
   width: 100%;
+}
+
+#detail-icon {
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-evenly;
 }
