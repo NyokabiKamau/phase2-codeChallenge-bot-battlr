@@ -7,7 +7,7 @@ import { MdAssistantPhoto } from "react-icons/md";
 
 function BotItem({avatar_url, name, health, damage, armor: armor, bot_class, catchphrase}) {
 
-    let botIcon 
+    let botIcon; 
 
     switch (bot_class) {
         case "Support":
