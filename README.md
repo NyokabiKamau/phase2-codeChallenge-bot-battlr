@@ -1,12 +1,12 @@
-# Phase2 Code Challenge Week1 
-# Bank of Flat Iron
+# Phase2 Code Challenge Week 2 
+# Bot Battlr
 
 ## Table of Content
 1. [Requirements](#requirements)
 2. [Project Guidelines](#project-guidelines)
     - [Core Deliverables](#core-deliverables)
     - [Advanced Deliverables](#advanced-deliverables)
-2. [Project Setup & Pre-requisite Data](#project-setup--pre-requisite-data)
+2. [Project Pre-requisite Data](#project-pre-requisite-data)
 3. [Project Setup](#project-setup)
     - [Installations](#installations)
     - [Access](#access)
@@ -58,7 +58,7 @@ Your app could look like the following:
 
 ![](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/full_demo.gif)
 
-## Project Setup & Pre-requisite Data
+## Project Pre-requisite Data
 In your project directory, create a db.json file and use this data Links to an external site.for your server DB.
 
 * Run this command to get the backend started: <code>json-server --watch db.json</code>
@@ -66,39 +66,47 @@ In your project directory, create a db.json file and use this data Links to an e
  
 
 ## Project Setup
+
 To access this project on you local computer, follow the steps below
 
 * Open your terminal
+
 * Clone this repository: 
     - Run <code>git clone (git@github.com:NyokabiKamau/phase2-codeChallenge-bot-battlr.git)</code>
 
 
 ### Installations:
-* Run <code>npm install</code> on the terminal
 
 * Open Visual Studio Code:
     - Run <code>code .</code>
 
 * Click on the available files to view the codes used
 
+NB: <code>npm install create-react-app@latest app-name</code> was used to install the latest version of react
+
 
 ### Access
+
 To access the content on the browser:
 
-* click on this link ()
+* click on this deployed link from vercel (https://phase2-code-challenge-bot-battlr.vercel.app/)
 
-* Run <code>npm start</code> on your terminal to start the backend json server
-   * (This enables the user to view the list of bank transactions)
+  * or
 
-   * or
-   
-   * Runs the app in the development mode.
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Run <code>npm install</code> on the terminal to install node modules
+
+* Run <code>npm start</code> on your terminal to start the backend json server to view it in your browser.
+
+  * or
+
+* Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 # Author
+
 This project was contributed to by: 
 * [Nyokabi Kamau](https://github.com/NyokabiKamau/)
 
 # License
+
 * This project is licensed under GNU General Public License v3
