@@ -63,15 +63,11 @@ To access this project on you local computer, follow the steps below
 
 * Open your terminal
 * Clone this repository: 
-    - Run <code>git clone (git@github.com:NyokabiKamau/phase2-codeChallenge-Bank-of-FlatIron.git)</code>
+    - Run <code>git clone (git@github.com:NyokabiKamau/phase2-codeChallenge-bot-battlr.git)</code>
 
 
 ### Installations:
 * Run <code>npm install</code> on the terminal
-
-* Run <code>npm install -g npm</code> This will make sure you have the newest version of npm. Once this is installed, you should be able to run the npx command.
-
-* Open a new terminal and navigate to the directory where you cloned the repository
 
 * Open Visual Studio Code:
     - Run <code>code .</code>
@@ -82,7 +78,7 @@ To access this project on you local computer, follow the steps below
 ### Access
 To access the content on the browser:
 
-* click on this link (https://63c79509f97b1a3949248694--earnest-kitsune-4fcb47.netlify.app/)
+* click on this link ()
 
 * Run <code>npm start</code> on your terminal to start the backend json server
    * (This enables the user to view the list of bank transactions)
