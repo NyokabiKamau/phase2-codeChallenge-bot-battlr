@@ -18,6 +18,7 @@
 For this project, you’ll be building out a React application that will browse through
 a list of robots, view a robot's details, and, enlist a bot into their army
 
+
 ## Project Guidelines
 Your project should conform to the following set of guidelines:
 
@@ -33,6 +34,8 @@ As a user, I should be able to:
 - Discharge a bot from their service forever, by clicking the red button marked
   "x", which would delete the bot both from the backend and from the
   `YourBotArmy` on the frontend.
+
+  ![](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/checkpoint_demo.gif)
 
 ### Advanced Deliverables
 As a user, I should be able to:
@@ -50,6 +53,10 @@ As a user, I should be able to:
   `SortBar`.
 - Only enlist **one** bot from each `bot_class`. The classes are
   `["Support", "Medic", "Assault", "Defender", "Captain", "Witch"]`.
+
+Your app could look like the following:
+
+![](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/full_demo.gif)
 
 ## Project Setup & Pre-requisite Data
 In your project directory, create a db.json file and use this data Links to an external site.for your server DB.
